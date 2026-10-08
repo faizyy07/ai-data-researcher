@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+duckdb
+polars
+pyarrow
+fastexcel
+numpy
+python-multipart
+pytest
+httpx
+xlsxwriter

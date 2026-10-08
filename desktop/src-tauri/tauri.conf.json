@@ -1,0 +1,4 @@
+{ "$schema": "https://schema.tauri.app/config/2", "productName": "AI Data Researcher", "version": "0.1.0", "identifier": "com.example.datareseacher",
+  "build": { "beforeDevCommand": "npm run dev", "devUrl": "http://localhost:1420", "beforeBuildCommand": "npm run build", "frontendDist": "../dist" },
+  "app": { "windows": [{ "title": "AI Data Researcher", "width": 1440, "height": 900, "minWidth": 1100, "minHeight": 700 }], "security": { "csp": null } },
+  "bundle": { "active": true, "targets": "all", "externalBin": ["binaries/analytics-service"] } }
